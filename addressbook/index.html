@@ -21,7 +21,7 @@
 				<div class="firstaddForm">
 					<input type="hidden" value="" id="record" name="record" />
 					<label for="fullname">name:</label><input type="text" id="fullname" name="fullname" placeholder="fullname" required/><br>
-					<label for="phone">phone:</label><input type="number" id="phone" name="phone" placeholder="0643748396" required /><br>
+					<label for="phone">phone:</label><input type="text" id="phone" name="phone" onkeypress="return isNumberKey(event)" placeholder="0643748396" required /><br>
 					<label for="address">address:</label><textarea name="address" id="address" name="address" placeholder="calandstr 89, Schiedam" required></textarea><br>
 					<label for="email">email:</label><input type="email" id="email" name="email" placeholder="email@example.com" required/><br>
 					<label for="comment">comment:</label><textarea id="comment" name="comment" required></textarea><br>
